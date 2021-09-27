@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - run: yarn
-      - run: pm2 start ./src/app.js
+      - run: pm2 start ./src/app.js -f
