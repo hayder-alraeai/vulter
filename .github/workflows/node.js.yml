@@ -15,5 +15,5 @@ steps:
     with:
       node-version: ${{matrix.node-version}}
   - run: 
-    npm i
-    npm run start
+    yarn
+    yarn start
